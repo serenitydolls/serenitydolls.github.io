@@ -55,5 +55,5 @@ function submit() {
 }
 
 function linkto() {
-    window.open("https://www.ebay.co.uk/sch/i.html?item=134742901689&rt=nc&_trksid=p4429486.m3561.l2562&_ssn=purplemolly100", "_blank");
+    window.open("https://www.ebay.co.uk/sch/237/i.html?item=134742901689&_ssn=purplemolly100", "_blank");
 }
