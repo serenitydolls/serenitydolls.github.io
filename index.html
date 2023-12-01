@@ -34,7 +34,7 @@
                     <ul id="menu-ul" class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#service">Gallery</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#faqModal">FAQ</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link me-lg-3" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy</a></li> -->
                         <li class="nav-item" onclick="sbtnPrepare()"><a id="abc" class="nav-link me-lg-3" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#feedbackModal"></a></li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     
                     <div class="col-sm-8 col-md-6">
-                        <div class="px-sm-0"><img class="img-fluid" src="assets/img/footerLulu.jpg" alt="..." /></div>
+                        <div class="px-sm-0"><img class="img-fluid" src="assets/img/withMum.jpg" alt="..." /></div>
                     </div>
 
                     <div class="col-12 col-lg-5">
@@ -213,6 +213,22 @@
                                         <img src="assets/img/question-circle.svg" class="feature-icon text-gradient mb-3" alt="" style="cursor: pointer;"  data-bs-toggle="modal" data-bs-target="#faqModal">
                                         <h3 class="font-alt">FAQ</h3>
                                         <p class="text-muted mb-0">See our frequently asked questions</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5 mt-5 mb-md-0">
+                                    <!-- Feature item-->
+                                    <div class="text-center align-content-center justify-content-center">
+                                        <img src="assets/img/chat-heart.svg" class="feature-icon text-gradient mb-3" alt="" style="cursor: pointer;"  data-bs-toggle="modal" data-bs-target="#testimonialsModal">
+                                        <h3 class="font-alt">Proud parents</h3>
+                                        <p class="text-muted mb-0">See some of the feedback we get</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-5 mt-5">
+                                    <!-- Feature item-->
+                                    <div class="text-center align-content-center justify-content-center">
+                                        <img src="assets/img/instagram.svg" class="feature-icon text-gradient mb-3" alt="" onclick="window.linktoInstagram()" style="cursor: pointer;">
+                                        <h3 class="font-alt">Baby clothes</h3>
+                                        <p class="text-muted mb-0">Our favourite baby clothes supplier on Instagram</p>
                                     </div>
                                 </div>
                             </div>
@@ -389,6 +405,30 @@
                             <p>Occasional changing of the baby's outfit should be done carefully without forcing the limbs.</p>
                             <p>Excessive touching can affect the paint finishes over time so clean dry hands are essential to minimise this.</p>
                             <p>The magnet and fine glass beads inside reborns can be dangerous if exposed, so are not suitable for young children or people with pacemakers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonials modal -->
+        <div class="modal fade" id="testimonialsModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white" id="privacyModalLabel">Proud parents</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="web-privacy-section">
+                        <div class="web-privacy-div">
+                            <!-- <h2 class="mb-4 mt-5">Frequently asked questions</h2> -->
+                            </br>
+                            <p>Stunning baby boy! Beautifully reborn by the seller who has a real gift! Great communication, fast delivery, well packaged with generous extras added for the baby. Highly recommend this lovely seller. Thank you!</p>
+                            <h6 class="fst-italic">- Sammie's mum</h6>
+
+                            </br>
+                            <p>Such a beautiful baby ...Helen was very helpful from first contact until delivery thank you I would recommend to everyone.</p>
+                            <h6 class="fst-italic">- Lilian's mum</h6>
                         </div>
                     </div>
                 </div>
