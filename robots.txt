@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-https://www.serenitydollstudio.co.uk/sitemap.xml
+Sitemap: https://www.serenitydollstudio.co.uk/sitemap.xml
