@@ -59,5 +59,9 @@ function linkto() {
 }
 
 function linktoInstagram() {
+    window.open("https://www.instagram.com/serenitydollstudio/", "_blank");
+}
+
+function linktoBabyClothes() {
     window.open("https://www.instagram.com/chelles_craft_gifts/", "_blank");
 }
