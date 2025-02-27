@@ -15,6 +15,9 @@ const value = "mailto:mail@example.org";
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    // allow carousel to come into viewport (initially hidden to speed up page load)
+    document.getElementById("carouselExampleControls").classList.remove("hidden");
+    
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
