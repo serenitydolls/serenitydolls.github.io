@@ -15,9 +15,13 @@ const value = "mailto:mail@example.org";
 
 window.addEventListener('DOMContentLoaded', event => {
 
-    // allow carousel to come into viewport (initially hidden to speed up page load)
-    document.getElementById("carouselExampleControls").classList.remove("hidden");
-    
+    // bring carousel images in after page load to speed up initial loading
+    const lazyCollection = document.getElementsByClassName("lazy-carousel-image");
+    for (let i = 0; i < lazyCollection.length; i++) {
+        lazyCollection[i].src = lazyCollection[i].getAttribute('data-src');
+        lazyCollection[i].removeAttribute('data-src');
+    }
+
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
