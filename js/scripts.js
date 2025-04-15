@@ -72,3 +72,7 @@ function linktoInstagram() {
 function linktoBabyClothes() {
     window.open("https://www.instagram.com/chelles_craft_gifts/", "_blank");
 }
+
+function linktoRAA() {
+    window.open("https://rebornartistryalliance.com/products/serenity-doll-studio", "_blank");
+}
