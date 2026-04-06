@@ -62,7 +62,7 @@ function submit() {
 }
 
 function linkto() {
-    window.open("https://www.ebay.co.uk/sch/237/i.html?item=134742901689&_ssn=purplemolly100", "_blank");
+    window.open("https://www.ebay.co.uk/usr/serenitydollstudio", "_blank");
 }
 
 function linktoInstagram() {
